@@ -1,0 +1,22 @@
+ public NEUROSYNC(ReadOnlyTargetRules Target) : base(Target)
+ {
+     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+
+     PublicDependencyModuleNames.AddRange(new string[] {
+         "Core",
+         "CoreUObject",
+         "Engine",
+         "InputCore",
+         "EnhancedInput",
+         "HTTP",
+         "Json",
+         "JsonUtilities",
+         "AnimationCore",  
+         "AssetRegistry"   
+     });
+
+     PrivateDependencyModuleNames.AddRange(new string[] {
+         "Slate",
+         "SlateCore"
+     });
+ }
