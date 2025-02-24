@@ -44,10 +44,7 @@ TArray<uint8> CreateWavFileFromPCM(const TArray<uint8>& PCMData, USoundWave* Sou
     return WavData;
 }
 
-// ----------------------------------------------------------
-// Utility: Simple timecode at 60 fps
-// (Moved from UHttpBlendshapeGetter.cpp)
-// ----------------------------------------------------------
+
 FString GenerateTimecodeString(int32 FrameIndex, int32 FPS)
 {
     int32 totalSeconds = FrameIndex / FPS;
@@ -59,10 +56,7 @@ FString GenerateTimecodeString(int32 FrameIndex, int32 FPS)
     return FString::Printf(TEXT("%02d:%02d:%02d:%02d"), hours, minutes, seconds, frames);
 }
 
-// ----------------------------------------------------------
-// Utility: Saves 2D array to CSV
-// (Moved from UHttpBlendshapeGetter.cpp)
-// ----------------------------------------------------------
+
 void SaveBlendshapes2DToCSV(const TArray<TArray<float>>& In2DBlendshapes)
 {
     if (In2DBlendshapes.Num() == 0)
