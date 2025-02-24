@@ -91,11 +91,8 @@ private:
     /** Extract raw PCM data from the AudioComponent's SoundWave (editor-only). */
     bool GetAudioBytesFromComponent(UAudioComponent* AudioComponent, TArray<uint8>& OutAudioBytes);
 
-    /**
-     * Saves the entire 2D array to CSV. If the first frame has length=61, we omit 7 columns.
-     * If it's 68, we include them. Also inserts Timecode + BlendshapeCount columns.
-     */
-    void SaveBlendshapes2DToCSV(const TArray<TArray<float>>& In2DBlendshapes) const;
+    // <<< REMOVED >>> The duplicate SaveBlendshapes2DToCSV declaration is removed
+    // void SaveBlendshapes2DToCSV(const TArray<TArray<float>>& In2DBlendshapes) const;
 
     UPROPERTY()
     UObject* WorldContextObject;
