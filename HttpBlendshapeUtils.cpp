@@ -80,7 +80,7 @@ void SaveBlendshapes2DToCSV(const TArray<TArray<float>>& In2DBlendshapes)
         TEXT("EyeBlinkLeft"), TEXT("EyeLookDownLeft"), TEXT("EyeLookInLeft"), TEXT("EyeLookOutLeft"), TEXT("EyeLookUpLeft"),
         TEXT("EyeSquintLeft"), TEXT("EyeWideLeft"), TEXT("EyeBlinkRight"), TEXT("EyeLookDownRight"), TEXT("EyeLookInRight"),
         TEXT("EyeLookOutRight"), TEXT("EyeLookUpRight"), TEXT("EyeSquintRight"), TEXT("EyeWideRight"), TEXT("JawForward"),
-        TEXT("JawRight"), TEXT("JawLeft"), TEXT("JawOpen"), TEXT("JawOpen"), TEXT("MouthClose"), TEXT("MouthFunnel"),
+        TEXT("JawRight"), TEXT("JawLeft"), TEXT("JawOpen"), TEXT("MouthClose"), TEXT("MouthFunnel"),
         TEXT("MouthPucker"), TEXT("MouthRight"), TEXT("MouthLeft"), TEXT("MouthSmileLeft"), TEXT("MouthSmileRight"),
         TEXT("MouthFrownLeft"), TEXT("MouthFrownRight"), TEXT("MouthDimpleLeft"), TEXT("MouthDimpleRight"), TEXT("MouthStretchLeft"),
         TEXT("MouthStretchRight"), TEXT("MouthRollLower"), TEXT("MouthRollUpper"), TEXT("MouthShrugLower"),
