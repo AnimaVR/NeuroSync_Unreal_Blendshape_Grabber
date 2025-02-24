@@ -8,10 +8,6 @@
 #include "Misc/Guid.h"
 #include "HAL/FileManager.h"
 
-// ----------------------------------------------------------
-// Utility: Convert raw PCM to WAV
-// (Moved from UHttpBlendshapeGetter.cpp)
-// ----------------------------------------------------------
 TArray<uint8> CreateWavFileFromPCM(const TArray<uint8>& PCMData, USoundWave* SoundWave)
 {
     TArray<uint8> WavData;
